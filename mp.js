@@ -1,12 +1,28 @@
+// debugger;
+// a=[1,2,3]
 
-n=+prompt('enter array length required :')
+// // foreach , map , filter ,find , reduce  ,,some,every
+// var aaa=10
+// a.forEach(siva)
+
+// function siva(vall,inde,aury) {
+// 	console.log(vall)
+// 	console.log(inde)
+// 	console.log(aury)
+// 	console.log('aaa=',aaa)
+// 	aaa++
+// 	// return vall
+// }
+// // siva()
+
+n=+prompt('enter Array length required :')
 arr=[]
 for(i=0;i<n;i++){
     t=+prompt(`enter ${i} position of an array :`)
     arr.push(t)
 }
 console.log(arr)
-nn=+prompt('Which smaller number to print :')
+nn=+prompt(`Which smallest number to print( < ${n}) :`)
 
 for(i of arr){
     c=0
